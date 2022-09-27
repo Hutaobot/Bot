@@ -11,7 +11,7 @@ let text = `
 │ • *Link Aja:* [${global.plinkaja}]
 ❏────
 Bantu ramekan grup ini kawan
-https://chat.whatsapp.com/E1TElUfSJY63Cs9WqNjEEC
+https://chat.whatsapp.com/KRy6wWgQpPP0h1b0TumuJY
 `.trim()
   m.reply(text)
 }
