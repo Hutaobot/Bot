@@ -14,4 +14,5 @@ conn.sendButton(m.chat, '𝙱𝚘𝚢𝚜', wm, json.result.male, [['🔄 Next �
 handler.help = ['ppcouple']
 handler.tags = ['internet']
 handler.command = /^(ppcp|ppcouple)$/i
+handler.limit = true
 export default handler
