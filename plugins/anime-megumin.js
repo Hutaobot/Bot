@@ -10,5 +10,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['megumin']
 handler.tags = ['anime']
 handler.command = /^(megumin)$/i
+handler.limit = true
 
 export default handler
