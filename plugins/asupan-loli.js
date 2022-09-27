@@ -7,6 +7,7 @@ let handler = async (m, { conn, text }) => {
   handler.tags = ['premium']
   handler.help = ['asupanloli']
   handler.premium = true
+  handler.limit = true
   export default handler
   
  global.asupan = [
