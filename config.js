@@ -30,26 +30,26 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/al_pakel'
-global.sgh = '-' //github
-global.sgc = 'https://chat.whatsapp.com/E1TElUfSJY63Cs9WqNjEEC' //group whatsapp
+global.sig = 'https://instagram.com/rafli_editz2'
+global.sgh = 'https://github.com/Futaroukun' //github
+global.sgc = 'https://chat.whatsapp.com/KRy6wWgQpPP0h1b0TumuJY' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/channel/UCbI74T0AXUI26VC88NyoWdw' // my youtube channel
+global.snh = '-' // my youtube channel
 
 /*============== PAYMENT ==============*/
-global.pdana = '082171432358' //dana
-global.povo = '08XXXXXXXXXX' //ovo
-global.pgopay = '08XXXXXXXXXX' //gopay
-global.plinkaja = '08XXXXXXXXXX' //link aja
-global.ppulsa = '082171432358' //telkomsel
-global.ppulsa2 = '081287142545' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.com/mrw4h1d'
+global.pdana = '085722157719' //dana
+global.povo = '-' //ovo
+global.pgopay = '085722157719' //gopay
+global.plinkaja = '-' //link aja
+global.ppulsa = '083854551575' //telkomsel
+global.ppulsa2 = '083854551575' // kalau ada kartu lain isi aja
+global.psaweria = 'https://saweria.com/raflieditz2'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281287142545'
-global.nomorown = '6282171432358'
-global.namebot = 'MGBOTZ-MD'
-global.nameown = 'SUBSCRIBE CHANNEL ALEX PAKEL'
+global.nomorbot = '6285722157719'
+global.nomorown = '6283854551575'
+global.namebot = 'HU TAO BOT-MD'
+global.nameown = 'A7 RAFLI'
 
 /*============== APIKEY SIMPEL ==============*/
 global.zenzkey = 'b8040941f7'
@@ -58,8 +58,8 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282171432358', 'MGBOTZ BY ALEX', true],
-  ['-', 'isi_kalau_ada', true],
+  ['6283854551575', 'A7 RAFLI', true],
+  ['6285722157719', 'Bot', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
@@ -109,20 +109,20 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '「 SUBSCRIBE ALEX PAKEL 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘MGBOTZ-MD-2˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ SUBS ALEXPAKEL '
+global.wm = '「 HU TAO BOT-MD 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘HU TAO BOT-MD˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ A7 RAFLI '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By ALEX PAKRL`
-global.author = '「 SUBSCRIBE ALEX PAKEL 」'
+global.titlebot = `⫹⫺ WhatsApp Bot | By A7 RAFLI`
+global.author = '「 A7 RAFLI | 2022 」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
-global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumb = 'https://telegra.ph/file/d83d411b1ac8d53b10607.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/d83d411b1ac8d53b10607.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
+global.thumbs = ['https://telegra.ph/file/d83d411b1ac8d53b10607.jpg']
 global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
 global.flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
@@ -159,7 +159,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/d83d411b1ac8d53b10607.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -189,8 +189,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'Sticker By Alex'
-global.stickauth = `SUBSCRIBE JUGA CHANNEL ALEX PAKEL`
+global.stickpack = 'HU TAO BOT-MD'
+global.stickauth = `A7 RAFLI`
 
 global.multiplier = 38 // The higher, The harder levelup
 
