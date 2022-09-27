@@ -15,9 +15,9 @@ m.reply(`
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷ཻུ۪۪ꦽꦼ̷
 ⸙
 *_BANTU RAMEKAN GROUP INI JUGA KAK_*
-https://chat.whatsapp.com/E1TElUfSJY63Cs9WqNjEEC
-*_SUBSCRIBE YT SAYA KAK :D_*
-https://youtube.com/channel/UCbI74T0AXUI26VC88NyoWdw
+https://chat.whatsapp.com/KRy6wWgQpPP0h1b0TumuJY
+*_FOLLOW TIKTOK SAYA KAK :D_*
+https://vt.tiktok.com/ZSeABMWuN
 `.trim()) // Tambah sendiri kalo mau
 }
 handler.command = /^(intro)$/i
@@ -40,9 +40,9 @@ let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•═════════════�
 |  *Status     :* 
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 *_BANTU RAMEKAN GROUP INI JUGA KAK_*
-https://chat.whatsapp.com/E1TElUfSJY63Cs9WqNjEEC
-*_SUBSCRIBE YT SAYA KAK :D_*
-https://youtube.com/channel/UCbI74T0AXUI26VC88NyoWdw
+https://chat.whatsapp.com/KRy6wWgQpPP0h1b0TumuJY
+*_FOLLOW TIKTOK SAYA KAK :D_*
+https://vt.tiktok.com/ZSeABMWuN
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
