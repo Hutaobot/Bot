@@ -8,5 +8,6 @@ handler.command = /^(jahy)$/i
 handler.tags = ['anime', 'premium', 'nsfw']
 handler.help = ['jahy']
 handler.premium = true
+handler.limit = true
 
 export default handler
