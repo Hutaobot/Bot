@@ -50,8 +50,8 @@ let handler = async function (m, { text, usedPrefix, command }) {
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔> Want a costume name? type *${usedPrefix + command} yourname.age*`,
-  title: "▢- - - - - ʀᴇɢɪsᴛᴇʀ - - - - -",
+  footer: `┗ *Your Name:* ${conn.getName(m.sender)}\n<❔> Want a costume name? type *${usedPrefix + command} yourname.age*`,
+  title: "▢- - - - - Register - - - - -",
   buttonText: "Click Here !",
   sections
 }
@@ -63,8 +63,8 @@ const listMessage = {
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
   if (!age) throw 'Umur tidak boleh kosong (Angka)'
   age = parseInt(age)
-  if (age > 30) throw 'WOI TUA (。-`ω´-)'
-  if (age < 5) throw 'Halah dasar bocil'
+  if (age > 30) throw 'Waduh pasti ortunya user nih (。-`ω´-)'
+  if (age < 5) throw 'Waduh ada bocil nih (。-`ω´-)'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
@@ -72,19 +72,19 @@ const listMessage = {
   let sn = createHash('md5').update(m.sender).digest('hex')
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   let cap = `
-┏─• *ᴜsᴇʀs*
-│▸ *sᴛᴀᴛᴜs:* ☑️ sᴜᴄᴄᴇssғᴜʟ
-│▸ *ɴᴀᴍᴇ:* ${name}
-│▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
-│▸ *sɴ:* ${sn}
+┏─• *User*
+│▸ *Status:* ☑️ Successful
+│▸ *Nama:* ${name}
+│▸ *Age:* ${age} Years
+│▸ *Sn:* ${sn}
 ┗────···
 
-ᴅᴀᴛᴀ ᴜsᴇʀ ʏᴀɴɢ ᴛᴇʀsɪᴍᴘᴀɴ ᴅɪᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛ, ᴅɪᴊᴀᴍɪɴ ᴀᴍᴀɴ ᴛᴀɴᴘᴀ ᴛᴇʀsʜᴀʀᴇ (. ❛ ᴗ ❛.)
+Data user yang tersimpan didatabase bot, dijamin aman tanpa tershare (. ❛ ᴗ ❛.)
 `
   let buttonMessage= {
 'document':{'url':sgc},
 'mimetype':global.ddocx,
-'fileName':'- - - - - ʀᴇɢɪsᴛᴇʀ - - - - -',
+'fileName':'- - - - - register - - - - -',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
@@ -96,13 +96,13 @@ const listMessage = {
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/4a7e5f18efaadec18a7a0.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/72d84657812b729e56df4.jpg')).buffer(),
 'sourceUrl':sgc}},
 'caption':cap,
 'footer':botdate,
 'buttons':[
-{'buttonId':'.menu','buttonText':{'displayText':'ᴍᴇɴᴜ'},'type':1},
-{'buttonId':'.donasi','buttonText':{'displayText':'ᴅᴏɴᴀsɪ'},'type':1}
+{'buttonId':'.menu','buttonText':{'displayText':'menu'},'type':1},
+{'buttonId':'.donasi','buttonText':{'displayText':'donasi'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
