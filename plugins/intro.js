@@ -49,8 +49,8 @@ let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/al_pakel",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'MGBOTZ BY ALEX',
+    description: "https://www.instagram.com/rafli_editz2", 
+    title: 'HU TAO BOT-MD',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
